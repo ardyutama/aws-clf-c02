@@ -21,7 +21,7 @@
 
 | Day | Date | Source & Set | Qs | Time Used | Raw Score (%) | Target | Weakest Domain(s) | Mistake Cards Added | Notes |
 | --- | --- | --- | :-: | :-: | :-: | :-: | --- | :-: | --- |
-| **Day 1** | Nov 23 | `SB-20Q` Official Practice Set (Cold Baseline) | 20 | /30m | __% | Diagnostic | | | Learn AWS question phrasing |
+| **Day 1** | Nov 24 | `SB-20Q` Official Practice Set (Cold Baseline) | 20 | /30m | **30%** *(6/20)* | Diagnostic | **D3** (22%, 2/9), **D2** (25%, 1/4) | | D1 2/4 (50%), D2 1/4 (25%), D3 2/9 (22%), D4 1/3 (33%) — Cold baseline; learn AWS question phrasing |
 | **Day 5** | Nov 27 | `GH-MOCK` Practice Exam 1 | 50 | /40m | __% | ≥65% | | | First timed run |
 | **Day 6** | Nov 28 | `SB-KBA` Knowledge Badge Assessment (**Run #1**) | Full | /90m | __% | ≥70% | | | Official randomized AWS engine |
 | **Day 6** | Nov 28 | `TD-FREE` Sampler — Timed Mode | 15 | /20m | __% | ≥73% | | | Read ALL explanations |
@@ -44,10 +44,10 @@ After every mock, add tally marks (`|`) under the domain where you missed or **g
 
 | Domain | Exam Weight | Running Miss + Lucky-Guess Tallies | Recurring Weak Topics |
 | --- | :---: | --- | --- |
-| **Domain 1:** Cloud Concepts | **24%** | | *(e.g., CAF perspectives, Well-Architected pillars, 7 Rs)* |
-| **Domain 2:** Security & Compliance | **30%** | | *(e.g., Shared Responsibility, GuardDuty vs Inspector vs Macie, IAM)* |
-| **Domain 3:** Cloud Technology & Services | **34%** | | *(e.g., VPC/NACL/SG, S3 classes, RDS vs DynamoDB, AI/ML)* |
-| **Domain 4:** Billing, Pricing & Support | **12%** | | *(e.g., 2026 Support Plans, Savings Plans vs RI, Cost Explorer vs CUR)* |
+| **Domain 1:** Cloud Concepts | **24%** | `||` (2) | `SB-20Q`: Task 1.1 Cloud benefits (0/1), Task 1.3 Migration strategies (0/1) |
+| **Domain 2:** Security & Compliance | **30%** | `|||` (3) | `SB-20Q`: Task 2.2 Security/governance/compliance (0/1), Task 2.3 Access management (0/1), Task 2.4 Security components/resources (0/1) |
+| **Domain 3:** Cloud Technology & Services | **34%** | `|||||||` (7) | `SB-20Q`: Task 3.1 Deploy/operate (1/2), Task 3.2 Global infra (0/1), Task 3.4 Databases (0/1), Task 3.5 Networking (0/1), Task 3.7 AI/ML & analytics (0/1), Task 3.8 Other services (0/2) |
+| **Domain 4:** Billing, Pricing & Support | **12%** | `||` (2) | `SB-20Q`: Task 4.1 Pricing models (0/1), Task 4.2 Billing/budget/cost mgmt (0/1) |
 
 ---
 
