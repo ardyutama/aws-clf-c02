@@ -11,7 +11,8 @@
 
 | File | Purpose | When to Use |
 | --- | --- | --- |
-| [study-plan.md](study-plan.md) | Day-by-day session schedule (Nov 23 – Dec 5) with checkboxes, exact free URLs, Anki quotas, Sunday rest, and Monday catch-up | Open **every day** and check off completed blocks |
+| [study-plan.md](study-plan.md) | Day-by-day session schedule (Nov 23 – Dec 5) with checkboxes, exact free URLs, Anki quotas, Sunday rest, and Monday catch-up — synced to the **Nov 25, 2026** `SB-ESS` update | Open **every day** and check off completed blocks |
+| [aws-skillbuilder-research-2026.md](aws-skillbuilder-research-2026.md) | Primary-source verification of all AWS Skill Builder & official CLF-C02 resources (verified Nov 26, 2026): full 13-module `SB-ESS` syllabus, 19-item `SB-PLAN` breakdown, and update timestamps | Reference whenever checking exact Skill Builder modules or course freshness |
 | [reddit-insights-2026.md](reddit-insights-2026.md) | Synthesis of the **5 latest `r/AWSCertifications` CLF-C02 passed threads** (Oct–Nov 2026) + **2026 Exam Guide v1.3 Delta & Outdated-Bank Errata Filter** | Read on **Day 1** and keep open while grading GitHub mocks |
 | [lookalike-cheatsheet.md](lookalike-cheatsheet.md) | High-yield comparison tables: confusable services, 2026 Support Plans, CAF 6 perspectives, Well-Architected 6 pillars, Shared Responsibility, S3/EC2 pricing | Use during **review blocks**, after mocks, and on **Days 10–11** |
 | [mock-tracker.md](mock-tracker.md) | Timed mock score log, domain gap breakdown, pass-readiness gates, and the Mistake-to-Anki conversion workflow | Log **every** quiz/mock immediately after finishing |
@@ -58,8 +59,8 @@
 
 ## Quick-Start Checklist (Do This First on Day 1)
 
-- [ ] Create/log in to a **free AWS Skill Builder account** and enroll in the [Exam Prep Plan: AWS Certified Cloud Practitioner (CLF-C02 - English)](https://skillbuilder.aws/learning-plan/8UUCEZGNX4/exam-prep-plan-aws-certified-cloud-practitioner-clfc02--english/1J2VTQSGU2) *(ignore any items tagged `Subscription` — use only the free items listed in [study-plan.md](study-plan.md))*.
-- [ ] Bookmark the free [Cloud Essentials Knowledge Badge Assessment](https://skillbuilder.aws/learn/63URRERNTS/cloud-essentials-knowledge-badge-assessment/VYB4663QV9) (randomized every attempt — your primary free AWS-authored exam engine).
+- [ ] Create/log in to a **free AWS Skill Builder account** and enroll in the [Exam Prep Plan: AWS Certified Cloud Practitioner (CLF-C02 - English)](https://skillbuilder.aws/learning-plan/8UUCEZGNX4/exam-prep-plan-aws-certified-cloud-practitioner-clfc02--english/1J2VTQSGU2) via the [CLF-C02 Exam Prep Hub](https://skillbuilder.aws/category/exam-prep/cloud-practitioner-foundational-CLF-C02) *(9 Free / 10 Subscription items — use only the free items listed in [study-plan.md](study-plan.md), including the **Nov 25, 2026** 13-module `AWS Cloud Practitioner Essentials` update)*.
+- [ ] Bookmark the free [Cloud Essentials Knowledge Badge Assessment](https://skillbuilder.aws/learn/63URRERNTS/cloud-essentials-knowledge-badge-assessment/VYB4663QV9) (updated Apr 30, 2026; randomized every attempt — your primary free AWS-authored exam engine).
 - [ ] Bookmark the [Tutorials Dojo Free CLF-C02 Sampler (30 Qs)](https://portal.tutorialsdojo.com/courses/free-aws-certified-cloud-practitioner-practice-exams-sampler/) and [kananinirav Free Practice Exams](https://kananinirav.com/practice-exam/exams.html).
 - [ ] Install **Anki** (Desktop + optional AnkiDroid/AnkiMobile sync) and follow [anki/anki-setup-guide.md](anki/anki-setup-guide.md) to import the 5 starter `.tsv` decks.
 - [ ] Read [reddit-insights-2026.md](reddit-insights-2026.md) (10 minutes) so you start with 2026 pitfalls front-of-mind.
