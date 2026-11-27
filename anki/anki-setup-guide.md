@@ -1,23 +1,19 @@
-# Anki 11-Day Sprint Setup Guide (CLF-C02 Cram Mode)
+# Anki 8-Day Recovery Sprint Setup Guide (Nov 27 – Dec 5, 2026)
 
-> **Why custom settings matter:** Default Anki scheduling optimizes for multi-year retention — pressing `Good` twice pushes a card out past your **December 5, 2026** exam date! These sprint settings force every card to resurface **at least 3–4 times** before Exam Day while honoring **Sunday, November 29 strictly OFF**.
+> **Why tightened sprint settings matter:** With **8 days left** before your **December 5, 2026** exam and **130/150 starter cards remaining** (20 already completed), default Anki intervals push cards past Exam Day. These tightened settings unlock **100% of your 150 starter cards by Tuesday, Dec 1**, cap intervals at **3 days** so even the last batch resurfaces **3–4 times** before Saturday, and keep **Sunday, Nov 29 strictly to ~30 minutes of due reviews only**.
 
 ---
 
-## Step 1 — Install & Create Deck Hierarchy (5 Minutes on Day 1)
+## Step 1 — Deck Hierarchy (Already Imported)
 
-1. Install **Anki Desktop** (Windows/macOS/Linux) from https://apps.ankiweb.net/ and create a free **AnkiWeb** account if you want optional sync to AnkiDroid (free) or AnkiMobile.
-2. Import all **5 starter `.tsv` files** from this `anki/` folder (`File → Import...` one file at a time):
-   - [01_Domain1_CloudConcepts.tsv](01_Domain1_CloudConcepts.tsv) — **28 cards** → `CLF-C02::01_Domain1_CloudConcepts`
-   - [02_Domain2_Security.tsv](02_Domain2_Security.tsv) — **35 cards** → `CLF-C02::02_Domain2_Security`
-   - [03_Domain3_TechServices.tsv](03_Domain3_TechServices.tsv) — **45 cards** → `CLF-C02::03_Domain3_TechServices`
-   - [04_Domain4_BillingSupport.tsv](04_Domain4_BillingSupport.tsv) — **22 cards** → `CLF-C02::04_Domain4_BillingSupport`
-   - [05_LookAlikes_2026Delta.tsv](05_LookAlikes_2026Delta.tsv) — **20 cards** → `CLF-C02::05_LookAlikes_2026Delta`
-   - *(Each file contains built-in Anki headers `#separator:tab`, `#html:true`, `#notetype:Basic`, `#deck:...`, `#tags column:3` — Anki auto-detects everything on import! Verify preview shows `Front`, `Back`, `Tags`, then click **Import**.)*
-3. Manually create one empty subdeck for your mock errors:
-   - Click **Create Deck** → name it exactly: `CLF-C02::06_Mistakes`
+Your 5 starter `.tsv` decks in this `anki/` folder total **150 cards** (plus your custom mistakes subdeck):
+- [01_Domain1_CloudConcepts.tsv](01_Domain1_CloudConcepts.tsv) — **28 cards** → `CLF-C02::01_Domain1_CloudConcepts`
+- [02_Domain2_Security.tsv](02_Domain2_Security.tsv) — **35 cards** → `CLF-C02::02_Domain2_Security`
+- [03_Domain3_TechServices.tsv](03_Domain3_TechServices.tsv) — **45 cards** → `CLF-C02::03_Domain3_TechServices`
+- [04_Domain4_BillingSupport.tsv](04_Domain4_BillingSupport.tsv) — **22 cards** → `CLF-C02::04_Domain4_BillingSupport`
+- [05_LookAlikes_2026Delta.tsv](05_LookAlikes_2026Delta.tsv) — **20 cards** → `CLF-C02::05_LookAlikes_2026Delta`
+- `CLF-C02::06_Mistakes` — manual subdeck for mock errors & lucky guesses (5–8/day in Week 2)
 
-Your final deck tree will look like:
 ```text
 CLF-C02
 ├── 01_Domain1_CloudConcepts   (28 starter cards)
@@ -25,71 +21,72 @@ CLF-C02
 ├── 03_Domain3_TechServices    (45 starter cards)
 ├── 04_Domain4_BillingSupport  (22 starter cards)
 ├── 05_LookAlikes_2026Delta    (20 starter cards)
-└── 06_Mistakes                (5–10 custom cards/day from mocks!)
+└── 06_Mistakes                (5–8 custom cards/day from mocks!)
 ```
 
 ---
 
-## Step 2 — Configure 11-Day Sprint Options Preset
+## Step 2 — Retune Options Preset for 8-Day Recovery Sprint (Do Today · Fri, Nov 27)
 
-Click the gear icon next to the parent **`CLF-C02`** deck → **Options** → top-right dropdown → **Add Preset** → name it **`CLF-C02 11-Day Sprint`**, apply these exact settings, and click **Save to All Subdecks**:
+Click the gear icon next to the parent **`CLF-C02`** deck → **Options** → update your sprint preset (`CLF-C02 8-Day Recovery`), apply these exact values, and click **Save to All Subdecks**:
 
 ### Daily Limits
-- **New cards/day:** `25` *(Days 1–6: study from the specific subdeck scheduled in [../study-plan.md](../study-plan.md); after Day 6, all 150 starter cards are unlocked and only `06_Mistakes` adds new cards!)*
-- **Maximum reviews/day:** `9999` *(never cap reviews during an 11-day sprint — you want to see every due card).*
-- **New/review order:** `Show after reviews` *(ALWAYS clear reviews first).*
+- **New cards/day:** `35` *(Fri Nov 27 – Tue Dec 1: pulls 30–35 new/day from the scheduled subdecks in [../study-plan.md](../study-plan.md); after Tue Dec 1, all 150/150 starter cards are active and only `06_Mistakes` adds new cards!)*
+- **Maximum reviews/day:** `9999` *(never cap reviews during the final 8 days — clear every due card daily).*
+- **New/review order:** `Show after reviews` *(ALWAYS clear due reviews first).*
 
 ### Scheduling — Pick Option A (Recommended: FSRS) OR Option B (Classic SM-2)
 
 | Setting | Option A: **FSRS (Anki 23.10+ Recommended)** | Option B: **Classic SM-2** |
 | --- | --- | --- |
 | **Enable FSRS** | **ON** | OFF |
-| **Desired retention** | **`0.93`** *(tighter intervals suited to a 11-day exam)* | N/A |
+| **Desired retention** | **`0.94`** *(tightened for an 8-day final sprint)* | N/A |
 | **Learning steps** | `10m 1h` | `10m 1h 6h` |
 | **Relearning steps** | `10m` | `10m 1h` |
 | **Graduating interval** | *(handled by FSRS)* | `1` day |
-| **Easy interval** | *(handled by FSRS)* | `3` days |
-| **Maximum interval** | **`4` days** *(CRITICAL — guarantees every card returns before Dec 5!)* | **`4` days** |
+| **Easy interval** | *(handled by FSRS)* | **`2`** days |
+| **Maximum interval** | **`3` days** *(CRITICAL — guarantees 3–4 passes before Dec 5!)* | **`3` days** |
 | **Bury related siblings** | OFF | OFF |
 
-> **Why `Maximum interval = 4 days`?** In an 11-day sprint, capping the max interval at **4 days** ensures even cards you learn on Day 1 resurface on Days 2, 5, 8/9, and 11 — zero cards go stale before Saturday, Dec 5.
+> **Why `Maximum interval = 3 days`?** In an 8-day recovery sprint, capping the max interval at **3 days** guarantees cards unlocked today (Nov 27) resurface on Nov 28 → Dec 1 → Dec 4, and even your final batch on **Tuesday, Dec 1** resurfaces on Dec 2 → Dec 3/4 Cram Deck → Dec 4/5 — zero cards go cold before Saturday morning.
 
 ---
 
-## Step 3 — Daily Pacing & Grading Rules
+## Step 3 — Restructured Daily Pacing (Starting From 20/150 Done)
 
-| Day | New Starter Quota | Subdeck Focus |
-| --- | :---: | --- |
-| **Day 1 (Mon Nov 23)** | 25 new | `01_Domain1_CloudConcepts` |
-| **Day 2 (Tue Nov 24)** | 25 new | `03_Domain3_TechServices` (first 25) |
-| **Day 3 (Wed Nov 25)** | 25 new | `02_Domain2_Security` (first 25) |
-| **Day 4 (Thu Nov 26)** | 25 new | `04_Domain4_BillingSupport` (22) + 3 from `01_Domain1` |
-| **Day 5 (Fri Nov 27)** | 25 new | `05_LookAlikes_2026Delta` (20) + 5 from `02_Domain2` |
-| **Day 6 (Sat Nov 28)** | 25 new | Remaining 5 from `02_Domain2` + remaining 20 from `03_Domain3` → **150/150 active!** |
-| **OFF (Sun Nov 29)** | **0** | **DO NOT OPEN ANKI.** |
-| **Day 7 (Mon Nov 30)** | `06_Mistakes` only | Clear 2-day backlog (35–40 min buffer already scheduled!) |
-| **Days 8–9 (Dec 1–2)** | `06_Mistakes` only | Clear all reviews daily + 5–10 Mistake Cards from mocks |
-| **Days 10–11 (Dec 3–4)** | Cram Mode | Clear due reviews + run **Filtered Cram Deck** (below) |
-| **Exam Morning (Dec 5)** | Warm-up only | Quick 20-min pass on `06_Mistakes` + Look-Alikes only |
+> **Deck assumption:** Assumes your first 20 cards are in `01_Domain1_CloudConcepts`. If they were spread across other decks, simply unlock **30–35 new cards/day** in order (`01 → 03 → 02 → 04 → 05`) so your cumulative total hits **150/150 on Tuesday, Dec 1**.
+
+| Day | New Starter Quota | Cumulative Active | Subdeck Focus (Synced to `SB-ESS` & Mocks) |
+| --- | :---: | :---: | --- |
+| **Completed (Nov 23–26)** | 20 done | `20 / 150` | `01_Domain1_CloudConcepts` (first 20) |
+| **Day 1 (Fri Nov 27)** | **+30 new** | `50 / 150` | Remaining **8** of `01_Domain1` + first **22** of `03_Domain3` *(matches M3–M6)* |
+| **Day 2 (Sat Nov 28)** | **+35 new** | `85 / 150` | Remaining **23** of `03_Domain3` *(done!)* + first **12** of `02_Domain2` *(matches M7–M11)* |
+| **REST (Sun Nov 29)** | **+0 new** | `85 / 150` | **Due reviews ONLY (~25–30m)** — zero new cards, zero courses/mocks |
+| **Day 3 (Mon Nov 30)** | **+35 new** | `120 / 150` | Remaining **23** of `02_Domain2` *(done!)* + first **12** of `04_Domain4` *(matches M12–M13 + Docs Patch)* |
+| **Day 4 (Tue Dec 1)** | **+30 new** | **`150 / 150`** | Remaining **10** of `04_Domain4` + all **20** of `05_LookAlikes_2026Delta` → **100% ACTIVE!** |
+| **Day 5 (Wed Dec 2)** | `06_Mistakes` only | `150 + Mistakes` | Clear all due reviews + 5–8 Mistake Cards from `SB-KBA` & `GH-MOCK` |
+| **Day 6 (Thu Dec 3)** | Cram Mode #1 | `150 + Mistakes` | Clear due reviews + **Filtered Cram Deck Pass #1** |
+| **Day 7 (Fri Dec 4)** | Cram Mode #2 | `150 + Mistakes` | Clear due reviews + **Filtered Cram Deck Pass #2** *(stop by 8 PM)* |
+| **Exam Morning (Dec 5)** | Warm-up only | Warm-up | Quick **20-min** pass on `06_Mistakes` + `05_LookAlikes_2026Delta` only |
 
 ### Strict Honest Grading Rule
 - Press **`Again` (1)** if you hesitated >5 seconds, confused two services, or only "kind of" recognized the answer after flipping.
 - Press **`Hard` (2)** if you got it right with noticeable effort.
 - Press **`Good` (3)** if you recalled it accurately within ~3–5 seconds.
-- **Avoid `Easy` (4)** during Days 1–9 unless a concept is 100% trivial (e.g., S3 = object storage).
+- **Avoid `Easy` (4)** during Days 1–6 unless a concept is 100% trivial (e.g., S3 = object storage).
 
 ---
 
-## Step 4 — Handling Sunday, Nov 29 Strictly OFF
+## Step 4 — Handling Sunday, Nov 29 (Active Rest: Reviews ONLY ~30m)
 
-You do **not** need any Anki add-on for a single rest day:
-1. Finish Saturday, Nov 28 reviews normally.
-2. Do **not** open Anki at all on Sunday, Nov 29.
-3. On **Monday, Nov 30**, Anki's queue will contain Sunday + Monday due cards (~70–100 cards, taking ~30–40 minutes). Clear it first thing in the **0:00–0:40** catch-up block in [../study-plan.md](../study-plan.md) before starting Mock #2.
+To keep Sunday restful while preventing a 100-card Monday queue:
+1. Open Anki **Options** on `CLF-C02` → under **This deck / Today only**, temporarily set **New cards/day = `0`** (so Anki does NOT show new starter cards on Sunday).
+2. Clear every due review card (~65–75 cards, taking **~25–30 minutes**).
+3. Close Anki immediately and enjoy the rest of Sunday 100% study-free. *(The `Today only` override resets automatically on Monday morning back to `35`!)*
 
 ---
 
-## Step 5 — Days 10–11 Filtered Cram Deck (Final Lock-In)
+## Step 5 — Thu Dec 3 & Fri Dec 4 Filtered Cram Deck (Final Lock-In)
 
 On **Thursday, Dec 3** and **Friday, Dec 4**, after finishing normal due reviews, create a temporary Filtered Deck to hammer your highest-risk cards:
 

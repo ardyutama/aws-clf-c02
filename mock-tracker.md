@@ -21,26 +21,22 @@
 
 | Day | Date | Source & Set | Qs | Time Used | Raw Score (%) | Target | Weakest Domain(s) | Mistake Cards Added | Notes |
 | --- | --- | --- | :-: | :-: | :-: | :-: | --- | :-: | --- |
-| **Day 1** | Nov 24 | `SB-20Q` Official Practice Set (Cold Baseline) | 20 | /30m | **30%** *(6/20)* | Diagnostic | **D3** (22%, 2/9), **D2** (25%, 1/4) | | D1 2/4 (50%), D2 1/4 (25%), D3 2/9 (22%), D4 1/3 (33%) — Cold baseline; learn AWS question phrasing |
-| **Day 5** | Nov 27 | `GH-MOCK` Practice Exam 1 | 50 | /40m | __% | ≥65% | | | First timed run |
-| **Day 6** | Nov 28 | `SB-KBA` Knowledge Badge Assessment (**Run #1**) | Full | /90m | __% | ≥70% | | | Official randomized AWS engine |
-| **Day 6** | Nov 28 | `TD-FREE` Sampler — Timed Mode | 15 | /20m | __% | ≥73% | | | Read ALL explanations |
-| **Day 6** | Nov 28 | `TD-FREE` Sampler — Review Mode | 15 | Untimed | __% | ≥73% | | | Read ALL explanations |
-| **Day 7** | Nov 30 | `GH-MOCK` Practice Exam 2 | 50 | /35m | __% | ≥72% | | | Two-pass method |
-| **Day 7** | Nov 30 | `GH-MOCK` Practice Exam 17 *(with explanations)* | 50 | /35m | __% | ≥74% | | | Two-pass method |
-| **Day 8** | Dec 1 | `SB-KBA` Knowledge Badge Assessment (**Run #2**) | Full | /90m | __% | **≥80%** | | | ≥80% earns free Credly badge! |
-| **Day 8** | Dec 1 | `GH-MOCK` Practice Exam 18 *(with explanations)* | 50 | /35m | __% | ≥76% | | | Apply 2026 Errata Filter |
-| **Day 9** | Dec 2 | `GH-MOCK` Practice Exam 19 *(with explanations)* | 50 | /35m | __% | ≥78% | | | Watch Select TWO/THREE |
-| **Day 9** | Dec 2 | `GH-MOCK` Practice Exam 20 *(with explanations)* | 50 | /35m | __% | ≥80% | | | Filter scenario fluff |
-| **Day 10** | Dec 3 | `SB-KBA` Knowledge Badge Assessment (**Run #3 — OnVUE Rehearsal**) | Full | /90m | __% | **≥85%** | | | Strict paperless OnVUE conditions |
-| **Day 11** | Dec 4 | `GH-MOCK` Practice Exam 21 or 22 *(with explanations)* | 50 | /35m | __% | **≥80%** | | | Final full stamina check |
-| **Day 11** | Dec 4 | `SB-20Q` Official Practice Set (Final Retake) | 20 | /20m | __% | **≥90%** | | | Final confidence check |
+| **Baseline** | Nov 24 | `SB-20Q` Official Practice Set (Cold Baseline) | 20 | /30m | **30%** *(6/20)* | Diagnostic | **D3** (22%, 2/9), **D2** (25%, 1/4) | | D1 2/4 (50%), D2 1/4 (25%), D3 2/9 (22%), D4 1/3 (33%) — Cold baseline; learn AWS question phrasing |
+| **Day 3** | Nov 30 | `TD-FREE` Sampler — Timed Mode | 15 | /15m | __% | ≥70% | | | First post-`SB-ESS` check; read ALL explanations |
+| **Day 3** | Nov 30 | `TD-FREE` Sampler — Review Mode | 15 | Untimed | __% | ≥73% | | | Read ALL explanations + bonus Flash Cards |
+| **Day 4** | Dec 1 | `SB-KBA` Knowledge Badge Assessment (**Run #1**) | Full | /65m | __% | ≥70% | | | Official randomized AWS engine; picks Wed surgical reviews |
+| **Day 4** | Dec 1 | `GH-MOCK` Practice Exam 17 *(with explanations)* | 50 | /35m | __% | ≥72% | | | Two-pass method; apply 2026 Errata Filter |
+| **Day 5** | Dec 2 | `GH-MOCK` Practice Exam 18 *(with explanations)* | 50 | /35m | __% | ≥76% | | | Post-surgical review check; watch Select TWO/THREE |
+| **Day 6** | Dec 3 | `SB-KBA` Knowledge Badge Assessment (**Run #2 — OnVUE Rehearsal**) | Full | /65m | __% | **≥80%** | | | Strict paperless OnVUE conditions; ≥80% earns free Credly badge! |
+| **Day 6** | Dec 3 | `GH-MOCK` Practice Exam 19 *(with explanations; skip if patching <80%)* | 50 | /30m | __% | ≥78% | | | Filter scenario fluff; check Readiness Gate tonight |
+| **Day 7** | Dec 4 | `GH-MOCK` Practice Exam 20 *(or `SB-KBA` Run #3 if Run #2 <80%)* | 50 / Full | /35–50m | __% | **≥80%** | | | Final full stamina check |
+| **Day 7** | Dec 4 | `SB-20Q` Official Practice Set (Final Retake) | 20 | /20m | __% | **≥90%** | | | Compare vs. Nov 24 (30%) baseline! |
 
 ---
 
 ## Domain Error Counter (Find Your Highest-ROI Gaps)
 
-After every mock, add tally marks (`|`) under the domain where you missed or **guessed** a question. Prioritize the domain with the highest `(Missed × Weight)` score on Day 8 and Day 10.
+After every mock, add tally marks (`|`) under the domain where you missed or **guessed** a question. Prioritize the domain with the highest `(Missed × Weight)` score on Wed Dec 2 (Targeted Domain Reviews) and Thu Dec 3.
 
 | Domain | Exam Weight | Running Miss + Lucky-Guess Tallies | Recurring Weak Topics |
 | --- | :---: | --- | --- |
@@ -55,7 +51,7 @@ After every mock, add tally marks (`|`) under the domain where you missed or **g
 
 Do **not** skip this after a mock — this 15–20 minute loop is what converts 68% scores into 85%+ scores:
 
-1. **Flag Lucky Guesses During the Mock:** On paper (Days 5–9) or in your mind/notepad (Day 10), note every question number where you were <80% sure — **even if you got it right**.
+1. **Flag Lucky Guesses During the Mock:** On paper (Mon Nov 30 – Wed Dec 2) or strictly mentally/digital notepad (Thu Dec 3 OnVUE rehearsal), note every question number where you were <80% sure — **even if you got it right**.
 2. **Diagnose the Root Cause** for every wrong answer and lucky guess:
    - `CONCEPT` — Didn't know what the service/framework does.
    - `LOOK-ALIKE` — Confused two similar services (e.g., CloudTrail vs. Config).

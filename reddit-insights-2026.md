@@ -65,7 +65,7 @@
 
 ## Synthesized Action Rules (Baked Into This Study Plan)
 
-| # | Consensus Finding Across the 5 Threads | How Our 11-Day Plan Implements It |
+| # | Consensus Finding Across the 5 Threads | How Our Study Plan Implements It |
 | :-: | --- | --- |
 | **1** | **75–85% on timed mocks = comfortable real-exam pass** | Pass gates in [mock-tracker.md](mock-tracker.md): ≥80% on Skill Builder Knowledge Badge + ≥80% on timed GitHub sets |
 | **2** | **Review lucky guesses, not just wrong answers** | Every guessed or missed question becomes an Anki card in `CLF-C02::06_Mistakes` |
@@ -73,7 +73,7 @@
 | **4** | **Look-alikes decide close questions** | Dedicated `05_LookAlikes_2026Delta.tsv` deck + side-by-side tables in [lookalike-cheatsheet.md](lookalike-cheatsheet.md) |
 | **5** | **Free banks have 2024–2025 outdated traps** | Apply the **2026 Errata Filter** below whenever taking `kananinirav` GitHub exams |
 | **6** | **Two-pass 50m + 40m pacing beats rushing** | Practiced on every Week 2 mock and locked into [onvue-checklist.md](onvue-checklist.md) |
-| **7** | **OnVUE discipline prevents anxiety & revocations** | Day 2 System Test + desk audit + Day 10 paperless dress rehearsal in [onvue-checklist.md](onvue-checklist.md) |
+| **7** | **OnVUE discipline prevents anxiety & revocations** | Early System Test + desk audit (done!) + Thu Dec 3 paperless dress rehearsal in [onvue-checklist.md](onvue-checklist.md) |
 
 ---
 

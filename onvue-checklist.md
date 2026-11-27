@@ -1,7 +1,7 @@
 # Pearson VUE OnVUE Online Proctoring Checklist & Exam-Day Pacing Guide (2026)
 
 > **Verified Against:** Official [Pearson VUE OnVUE Requirements for AWS (2026)](https://www.pearsonvue.com/us/en/aws/onvue.html) + Nov 2026 `r/AWSCertifications` OnVUE pass reports.  
-> **Critical Warning:** Failing OnVUE technical, room, or ID rules on exam day can result in **immediate cancellation and forfeiture of your $100 exam fee**. Run Stage 1 on **Day 2 (Nov 24)** so you have 11 days to fix any issue.
+> **Status:** Stage 1 Early Audit **COMPLETED**! Next milestone: **Stage 2 Paperless Dress Rehearsal on Thu, Dec 3**.
 
 ---
 
@@ -20,27 +20,27 @@
 
 ---
 
-## Stage 1 — Early Technical & Room Audit (Do on Day 2 · Tue, Nov 24)
+## Stage 1 — Early Technical & Room Audit (COMPLETED · Prior to Nov 27)
 
-- [ ] **Check AWS CertMetrics Profile Name:** Log in to [AWS Certification Portal (CertMetrics)](https://cp.certmetrics.com/amazon/en/login) and confirm your **exact legal name** matches your physical government ID (no nicknames or missing middle-name mismatches).
-- [ ] **Run Official OnVUE System Test:** Run [Pearson VUE AWS OnVUE System Test](https://system-test.onvue.com/system_test?customer=pearson_vue&clientcode=AWS&locale=en_US) on the **exact computer and exact Wi-Fi/Ethernet network** you will use on Dec 5.
-  - [ ] Webcam check passed
-  - [ ] Microphone & speaker check passed (without headphones!)
-  - [ ] Network speed check passed (≥6 Mbps down / ≥2 Mbps up, VPN OFF)
-  - [ ] Sample OnVUE exam screen launched cleanly
-- [ ] **Audit Your Testing Room:**
-  - [ ] Private, quiet, well-lit room with a **closable door** (nobody can walk in during the 90 minutes).
-  - [ ] Plan where your unplugged second monitor, papers, books, and smart speakers will go.
-  - [ ] Confirm you have an Ethernet cable (or strong router signal) and laptop power adapter ready.
-- [ ] **Check Exam Appointment Details:** Confirm exact start time & timezone for **Saturday, Dec 5, 2026** in CertMetrics.
+- [x] **Check AWS CertMetrics Profile Name:** Log in to [AWS Certification Portal (CertMetrics)](https://cp.certmetrics.com/amazon/en/login) and confirm your **exact legal name** matches your physical government ID (no nicknames or missing middle-name mismatches).
+- [x] **Run Official OnVUE System Test:** Run [Pearson VUE AWS OnVUE System Test](https://system-test.onvue.com/system_test?customer=pearson_vue&clientcode=AWS&locale=en_US) on the **exact computer and exact Wi-Fi/Ethernet network** you will use on Dec 5.
+  - [x] Webcam check passed
+  - [x] Microphone & speaker check passed (without headphones!)
+  - [x] Network speed check passed (≥6 Mbps down / ≥2 Mbps up, VPN OFF)
+  - [x] Sample OnVUE exam screen launched cleanly
+- [x] **Audit Your Testing Room:**
+  - [x] Private, quiet, well-lit room with a **closable door** (nobody can walk in during the 90 minutes).
+  - [x] Plan where your unplugged second monitor, papers, books, and smart speakers will go.
+  - [x] Confirm you have an Ethernet cable (or strong router signal) and laptop power adapter ready.
+- [x] **Check Exam Appointment Details:** Confirm exact start time & timezone for **Saturday, Dec 5, 2026** in CertMetrics.
 
 ---
 
-## Stage 2 — Full Paperless Dress Rehearsal (Do on Day 10 · Thu, Dec 3)
+## Stage 2 — Full Paperless Dress Rehearsal (Do on Recovery Day 6 · Thu, Dec 3)
 
 - [ ] Clear your desk **100% identically** to exam day (single screen, power cord, mouse/keyboard only).
 - [ ] Re-run the [Pearson VUE OnVUE System Test](https://system-test.onvue.com/system_test?customer=pearson_vue&clientcode=AWS&locale=en_US) to verify no OS update broke OnVUE.
-- [ ] Take **Skill Builder Knowledge Badge Assessment Run #3** silently (no muttering, no physical notes, eyes centered on screen, phone in another corner) to verify 90-minute focus comfort.
+- [ ] Take **Skill Builder Knowledge Badge Assessment Run #2** silently (no muttering, no physical notes, eyes centered on screen, phone in another corner) to verify 90-minute focus comfort.
 
 ---
 
